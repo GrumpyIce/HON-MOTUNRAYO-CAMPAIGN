@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroSection from './components/HeroSection';
 import AboutHer from './components/AboutHer';
+import Countdown from './components/Countdown';
 import CampaignVision from "./components/CampaignVision";
 import './App.css';
 import Achievements from './components/Achievements';
@@ -12,7 +13,7 @@ import EndorsementByAction from './components/EndorsementByAction';
 import BackToTop from './components/BackToTop';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Countdown from './components/Countdown';
+
 
 function App() {
   return (
