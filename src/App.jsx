@@ -10,16 +10,16 @@ import ContactUs from './components/ContactUs';
 import Testimonials from './components/Testimonials';
 import EndorsementByAction from './components/EndorsementByAction';
 import BackToTop from './components/BackToTop';
-import Countdown from './components/Countdown';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Countdown from './components/Countdown';
 
 function App() {
   return (
     <div className="app">
-       <Navbar />
+      <Navbar />
       <HeroSection />
-      <AboutHer /> 
+      <AboutHer />
       <Countdown />
       <CampaignVision />
       <Achievements />
@@ -33,6 +33,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;

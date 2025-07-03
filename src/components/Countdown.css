@@ -1,143 +1,71 @@
-/* .countdown-section {
-  background: linear-gradient(to right, #e0f2fe, #f0f9ff);
-  padding: 4rem 1.5rem;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #1e3a8a;
-}
-
-.countdown-container {
-  max-width: 800px;
-  margin: auto;
-  background: white;
-  padding: 3rem 2rem;
-  border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
-}
-
-.countdown-container h2 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: #0f172a;
-}
-
-.inline-timer {
+.countdown-modern {
+  background-color: #f0f9ff;
+  padding: 60px 20px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-weight: 600;
-  font-size: 1.2rem;
-  margin-top: 1rem;
-}
-
-.inline-timer span {
-  display: inline-block;
-  min-width: 70px;
-  padding: 18px 10px;
-  background: #2563eb;
-  color: white;
-  border-radius: 12px;
-  font-size: 1.6rem;
-  box-shadow: 0 4px 8px rgba(37, 99, 235, 0.3);
-  transition: transform 0.2s;
-}
-
-.inline-timer span:hover {
-  transform: scale(1.1);
-  background: #1d4ed8;
-}
-
-.countdown-container h4 {
-  font-size: 1.1rem;
-  color: #334155;
-  margin-bottom: 0.5rem;
-}
-
-.election-day {
-  margin-top: 1.5rem;
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: #16a34a;
-} */
-
-
-.countdown-section {
-  background: #f0f4f8;
-  padding: 4rem 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  border-top: 2px solid;
 }
 
 .countdown-container {
   background: #ffffff;
-  padding: 3rem 2rem;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
   max-width: 700px;
   width: 100%;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .countdown-container:hover {
-  transform: translateY(-4px);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
 .countdown-container h2 {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
   color: #1f2937;
-  margin-bottom: 1.5rem;
 }
 
-.countdown-container h4 {
-  font-size: 1.1rem;
-  color: #475569;
-  margin-bottom: 1rem;
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #6b7280;
 }
 
-.inline-timer {
+.timer-box {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
-.inline-timer span {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #1d4ed8;
-  color: white;
-  padding: 1rem;
-  border-radius: 12px;
-  min-width: 80px;
-  font-size: 1.6rem;
-  font-weight: bold;
-  box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2);
-  transition: transform 0.2s;
-}
-
-.inline-timer span:hover {
-  transform: scale(1.05);
+.time-unit {
   background-color: #2563eb;
+  color: white;
+  border-radius: 8px;
+  padding: 20px 15px;
+  min-width: 80px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
 }
 
-.inline-timer span::after {
-  content: attr(data-label);
+.time-unit:hover {
+  background-color: #1e40af;
+  transform: scale(1.08);
+}
+
+.time {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.label {
   font-size: 0.9rem;
-  font-weight: 400;
   margin-top: 5px;
   text-transform: uppercase;
-  color: #cbd5e1;
-}
-
-.election-day {
-  margin-top: 2rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #16a34a;
+  letter-spacing: 1px;
 }
