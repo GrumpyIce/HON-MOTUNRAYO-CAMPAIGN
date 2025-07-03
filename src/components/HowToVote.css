@@ -1,0 +1,32 @@
+.how-to-vote {
+  background-color: #f1f5f9;
+  padding: 4rem 1rem;
+  color: #0f172a;
+}
+
+.how-to-vote .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.how-to-vote h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1e40af;
+}
+
+.how-to-vote .intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.how-to-vote ol {
+  padding-left: 1.5rem;
+}
+
+.how-to-vote li {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}

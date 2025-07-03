@@ -1,0 +1,51 @@
+.achievements {
+  background: #f0f9ff;
+  color: #1e293b;
+  padding: 4rem 1rem;
+}
+
+.achievements .container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.achievements h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #0f172a;
+}
+
+.achievements .quote {
+  font-style: italic;
+  color: #475569;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.achievements .intro {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  color: #334155;
+}
+
+.achievement-block {
+  margin-bottom: 2rem;
+}
+
+.achievement-block h3 {
+  color: #2563eb;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.achievement-block ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.achievement-block li {
+  margin-bottom: 0.7rem;
+  line-height: 1.6;
+}

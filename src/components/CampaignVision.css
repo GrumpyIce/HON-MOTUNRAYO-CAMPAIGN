@@ -1,0 +1,18 @@
+.campaign-vision {
+  background-color: #fefce8;
+  padding: 60px 20px;
+  border-top: 2px solid #f59e0b;
+}
+
+.campaign-vision h2 {
+  text-align: center;
+  color: #78350f;
+  margin-bottom: 24px;
+}
+
+.campaign-vision p {
+  color: #44403c;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto 16px;
+}

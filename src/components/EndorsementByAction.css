@@ -1,0 +1,69 @@
+.endorsement {
+  background-color: #f9fafb;
+  padding: 4rem 1rem;
+  text-align: center;
+  color: #0f172a;
+}
+
+.endorsement .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.endorsement h2 {
+  font-size: 2.5rem;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+.endorsement .quote {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #475569;
+  margin-bottom: 2.5rem;
+}
+
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.action-btn {
+  padding: 0.8rem 1.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.action-btn.join {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.action-btn.join:hover {
+  background-color: #1d4ed8;
+}
+
+.action-btn.volunteer {
+  background-color: #22c55e;
+  color: #fff;
+}
+
+.action-btn.volunteer:hover {
+  background-color: #16a34a;
+}
+
+.action-btn.polling {
+  border: 2px solid #2563eb;
+  color: #2563eb;
+  background: transparent;
+}
+
+.action-btn.polling:hover {
+  background-color: #2563eb;
+  color: #fff;
+}
