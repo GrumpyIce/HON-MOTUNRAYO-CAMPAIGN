@@ -1,6 +1,6 @@
 .testimonials {
   padding: 4rem 2rem;
-  background-color: #f4f4f4;
+  background-color: black;
   text-align: center;
 }
 
@@ -18,22 +18,22 @@
 }
 
 .testimonial-card {
-  background-color: #fff;
+  background-color: black;
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.08);
   font-style: normal;
-  color: #333;
+  color:whitesmoke;
 }
 
 .text {
   font-size: 1.1rem;
   margin-bottom: 1rem;
-  color: #222; /* Ensure visible on light bg */
+  color: whitesmoke; 
 }
 
 .name {
   font-size: 1rem;
   font-weight: bold;
-  color: #555;
+  color: whitesmoke;
 }

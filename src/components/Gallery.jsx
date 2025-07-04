@@ -22,13 +22,13 @@ const images = [
   {
     src: '/igbe rally.jpg',
     caption: 'IJEDE TUNRAYO 2025',
-    description: 'What a great time at IGBE'
+    description: 'IJEDE TUNRAYO MOVEMENT'
   },
   
   {
     src: '/rally 1.jpg',
     caption: 'IJEDE TUNRAYO 2025',
-    description: 'What a great time at IGBE'
+    description: 'IJEDE TUNRAYO MOVEMENT'
   },
 
 
@@ -40,7 +40,7 @@ const images = [
   {
     src: '/rally 3.jpg',
     caption: 'IJEDE TUNRAYO 2025',
-    description: 'What a great time at IGBE'
+    description: 'IJEDE TUNRAYO MOVEMENT'
   },
 
 
@@ -48,35 +48,40 @@ const images = [
 {
     src: '/rally 5.jpg',
     caption: 'IJEDE TUNRAYO 2025',
-    description: 'What a great time at IGBE'
+    description: 'IJEDE TUNRAYO MOVEMENT'
   },
 
 {
     src: '/rally 8.jpg',
     caption: 'IJEDE TUNRAYO 2025',
-    description: 'What a great time at IGBE'
+    description: 'IJEDE TUNRAYO MOVEMENT'
   },
 
 {
     src: '/rally 9.jpg',
     caption: 'IJEDE TUNRAYO 2025',
-    description: 'What a great time at IJEDE'
+    description: 'IJEDE TUNRAYO MOVEMENT'
   },
 
 
 {
     src: '/rally 10.jpg',
     caption: 'IJEDE TUNRAYO 2025',
-    description: 'What a great time at IJEDE'
+    description: 'IJEDE TUNRAYO MOVEMENT'
   },
 
 
   {
     src: '/rally 11.jpg',
     caption: 'IJEDE TUNRAYO 2025',
-    description: 'What a great time at IJEDE'
+    description: 'IJEDE TUNRAYO MOVEMENT'
   },
 
+   {
+    src: '/TUNRAYO NEW.jpg',
+    caption: 'IJEDE TUNRAYO 2025',
+    description: 'IJEDE TUNRAYO MOVEMENT'
+  },
 ];
 
 const Gallery = () => {

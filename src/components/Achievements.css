@@ -1,6 +1,6 @@
 .achievements {
-  background: #f0f9ff;
-  color: #1e293b;
+  background: black;
+  color: whitesmoke;
   padding: 4rem 1rem;
 }
 
@@ -13,12 +13,12 @@
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #0f172a;
+  color:  #2563eb;
 }
 
 .achievements .quote {
   font-style: italic;
-  color: #475569;
+  color: whitesmoke;
   text-align: center;
   margin-bottom: 1.5rem;
 }
@@ -27,7 +27,7 @@
   text-align: center;
   font-size: 1.1rem;
   margin-bottom: 2.5rem;
-  color: #334155;
+  color: whitesmoke;
 }
 
 .achievement-block {
